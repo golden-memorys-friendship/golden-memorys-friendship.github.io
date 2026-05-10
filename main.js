@@ -1,7 +1,7 @@
 import './style.css'
 
 const path = window.location.pathname;
-const isHome = path.endsWith('index.html') || path === '/' || path.endsWith('our-memories/');
+const isHome = path.endsWith('index.html') || path === '/';
 const isBond = path.endsWith('bond.html');
 const isMemories = path.endsWith('memories.html');
 const isConnect = path.endsWith('connect.html');
